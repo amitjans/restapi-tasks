@@ -1,0 +1,23 @@
+###
+POST http://localhost:3000/api/tasks
+Content-Type: application/json
+
+{
+    "title": "Hacer Sitio 2 csharp",
+    "description": "trabajo4"
+}
+
+###
+GET  http://localhost:3000/api/tasks?page=0&limit=3&title=php
+
+###
+DELETE http://localhost:3000/api/tasks/600df9bc413a734270881fba
+
+###
+PUT http://localhost:3000/api/tasks/600df9f3413a734270881fbb
+Content-Type: application/json
+
+{
+    "title": "Hacer Sitio 3",
+    "description": "trabajo"
+}
